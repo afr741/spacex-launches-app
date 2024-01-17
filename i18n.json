@@ -1,0 +1,17 @@
+{
+    "locales": [
+        "en"
+    ],
+    "defaultLocale": "en",
+    "pages": {
+        "*": [
+            "common"
+        ],
+        "/": [
+            "launches"
+        ],
+        "/launches": [
+            "launches"
+        ]
+    }
+}
