@@ -1,7 +1,7 @@
 import { ColorModeSwitcher, NavBar } from '@/components';
 import { Box, Spacer } from '@chakra-ui/react';
 import { useSession } from 'next-auth/react';
-import React, { useMemo, useEffect } from 'react';
+import React, { useMemo } from 'react';
 import { Logo } from '../logo';
 import LoginButton from './LoginButton';
 import LogoutButton from './LogoutButton';
@@ -9,9 +9,6 @@ import LogoutButton from './LogoutButton';
 export const Header: React.FC = () => {
   const { data: session } = useSession();
 
-  useEffect(() => {
-    console.log('session', session);
-  }, []);
   const AuthInfo = useMemo(() => {
     if (session) {
       return (

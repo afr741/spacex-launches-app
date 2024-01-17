@@ -4,7 +4,7 @@
 
 This app demo made using Apollo, Graphql, Redux, Chakra-ui, Axios, etc.
 
-[Demo Site]()
+[Demo Site](spacex-launches-app-pt5e.vercel.app/)
 
 ## Features
 * 👌 Authentication via OAuth (Google, Github)
@@ -30,7 +30,7 @@ This app demo made using Apollo, Graphql, Redux, Chakra-ui, Axios, etc.
 
 ## Requirements
 - [Node.js](https://nodejs.org/)
-- [Yarn](https://yarnpkg.com/)
+- [npm](https://npmpkg.com/)
 
 ## Installation
 1. Clone the repository:
@@ -42,21 +42,21 @@ This app demo made using Apollo, Graphql, Redux, Chakra-ui, Axios, etc.
 1. Install dependent packages:
 
    ```bash
-   yarn install
+   npm install
    ```
 
 ## Development mode commands
 1. Run the application in development mode.
     ```bash
-    yarn dev
+    npm dev
     ```
 1. Build production.
     ```bash
-    yarn build
+    npm build
     ```
 1. Run the application in production mode.
     ```bash
-    yarn start
+    npm start
     ```
 
 

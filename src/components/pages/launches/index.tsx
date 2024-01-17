@@ -22,7 +22,7 @@ const LaunchesPageComponent: React.FC = () => {
     },
   );
 
-  const handleLaunchClick = (item: LauncheType) => {
+  const handleLaunchClick = (item: LauncheType): void => {
     setActiveLaunch(item);
     onOpen();
   };

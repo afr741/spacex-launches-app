@@ -6,7 +6,7 @@ import React from 'react';
 
 type Props = {
   launche: Launche;
-  handleClick: (e: Launche) => {};
+  handleClick: (e: Launche) => void;
 };
 
 const Launche: React.FC<Props> = ({ launche, handleClick }) => {

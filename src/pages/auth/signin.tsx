@@ -47,7 +47,7 @@ export default function SignIn({
       />
       <InfoModal
         isOpen={isOpenSecondModal}
-        onClose={() => {}}
+        onClose={() => setIsOpenSecondModal(false)}
         handleInfoSubmit={handleJobModal}
         label={label}
       />

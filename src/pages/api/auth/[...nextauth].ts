@@ -16,7 +16,7 @@ const options: NextAuthOptions = {
 
         // If no error and we have user data, return it
         if (user) {
-          return user;
+          return user as any;
         }
         // Return null if user data could not be retrieved
         return null;

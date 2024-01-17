@@ -1,10 +1,8 @@
 import {
-  useDisclosure,
   Modal,
   Button,
   ModalOverlay,
   ModalContent,
-  ModalCloseButton,
   ModalHeader,
   ModalFooter,
   FormLabel,

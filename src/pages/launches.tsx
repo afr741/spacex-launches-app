@@ -4,13 +4,13 @@ import LaunchesPageComponent from '@/components/pages/launches';
 import { GetStaticProps, NextPage } from 'next';
 import { useSession } from 'next-auth/react';
 import Head from 'next/head';
-import SessionType from 'src/types/session';
+// import SessionType from 'src/types/session';
 
-type Props = {
-  session: SessionType;
-};
+// type Props = {
+//   session: SessionType;
+// };
 
-const TodosPage: NextPage<Props> = props => {
+const TodosPage: NextPage = props => {
   const { data: session, status } = useSession();
 
   if (status === 'loading') return <Spinner />;
